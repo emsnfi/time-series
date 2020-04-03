@@ -49,6 +49,9 @@ acf(Brazil_return_acf, lag = 12)
 Brazil_return_pacf<-stock_Breturn$Breturn
 pacf(Brazil_return_pacf, lag = 12)
 
+#
+summary(stock_Breturn$Breturn)
+
 #æª¢æ¸¬è³‡æ?™æ˜¯?¦å®šæ?? 
 #å¢žå»£DFæª¢å?šï?Œç”¨ä¾†æ¸¬è©¦å?‚æ?œå?‡ARæ¨¡å?‹å?—å…¥??‚ï?Œæ˜¯?¦å­˜åœ¨?–®ä½è??(unit root)ï¼?
 #??€ä¸‹é¢??? ?€alternative hypothesiså°ç?‹å?‡è¨­ï¼šå¹³ç©©â€? ä»?è¡¨è©²æª¢å?šç?„æ¸¬è©¦å?è±¡
