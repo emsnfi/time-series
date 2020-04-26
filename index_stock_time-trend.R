@@ -21,7 +21,7 @@ stock_Brprice<-stock[,c(1,2)] #??–brazil ??‚é?“å?Œå ±?…¬
 
 names(stock_Brprice)<-c("time","Brazil_price") #add head (time price)
 
-Brazil_price <- ts(stock_Brprice$Brazil_price, frequency = 365,start = c(2006,6,1),end=c(2010,3,31))
+Brazil_price <- ts(stock_Brprice$Brazil_price, frequency = 360,start = c(2006,6,1),end=c(2010,3,31))
 
 plot(Brazil_price)
 
